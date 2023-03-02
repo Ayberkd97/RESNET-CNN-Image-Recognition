@@ -1,1 +1,1 @@
-# RESNET-CNN-Image-Recognition
+# Residual

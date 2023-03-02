@@ -11,12 +11,12 @@ import time
 from sklearn.metrics import accuracy_score
 import seaborn as sns
 
-train_path_negative = '/kaggle/input/lsifir/LSIFIR/Classification/Train/neg'
-train_path_positive = '/kaggle/input/lsifir/LSIFIR/Classification/Train/pos'
+train_path_negative = 'Classification/Train/neg'
+train_path_positive = 'Classification/Train/pos'
 train = [train_path_negative, train_path_positive]
 
-test_path_negative = '/kaggle/input/lsifir/LSIFIR/Classification/Test/neg'
-test_path_positive = '/kaggle/input/lsifir/LSIFIR/Classification/Test/pos'
+test_path_negative = 'Classification/Test/neg'
+test_path_positive = 'Classification/Test/pos'
 test = [test_path_negative, test_path_positive]
 
 
